@@ -321,3 +321,24 @@ body{
     position: absolute; /* Ensures the text appears above the overlay */
     z-index: 2; /* Ensures the content is above the overlay */
 }
+
+footer{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 32px 0;
+}
+
+footer .about-us p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+footer .quick-links li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer .quick-links a{
+    color: white;
+    text-decoration: none;
+}
