@@ -531,6 +531,10 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 4,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: true,
+            },
             spaceBetween: 32,
             pagination: {
                 el: ".swiper-pagination",

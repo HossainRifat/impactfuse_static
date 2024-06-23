@@ -342,3 +342,7 @@ footer .quick-links a{
     color: white;
     text-decoration: none;
 }
+
+.swiper-pagination{
+    display: none !important;
+}
