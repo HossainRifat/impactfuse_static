@@ -346,3 +346,15 @@ footer .quick-links a{
 .swiper-pagination{
     display: none !important;
 }
+
+/* PAGE STYLE */
+.page-photo{
+    margin-top: 96px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+
