@@ -14,6 +14,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.text-justify{
+    text-align: justify;
+}
+
 .rounded-theme{
     border-radius: 16px;
 }
