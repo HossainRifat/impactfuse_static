@@ -120,6 +120,11 @@ body{
 }
 
 @media (max-width: 767px){
+
+    .info-wrap{
+        border-radius: 0 0 10px 10px !important;
+    }
+
     .donation-div{
        max-width: 360px;
        padding: 12px !important;
@@ -414,8 +419,8 @@ footer .quick-links a{
 .member-card{
     box-shadow: var(--primary-box-shadow);
     border-radius: 16px;
-    height: 348px;
-    width: 348px;
+    height: 388px;
+    min-width: 348px;
     display: flex;
     flex-direction: column;
     justify-content: center;
